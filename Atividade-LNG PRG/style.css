@@ -1,0 +1,86 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #cacaca;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+}
+.topo{
+    flex: 1;
+    background-color: red;
+    max-height: 70px;
+}
+h1{
+   text-align: center;
+}
+.banner{
+    flex: 1;
+    background-color: rgb(255, 121, 121);
+    height: 400px;
+    margin: 20px;
+}
+nav{
+    display: flex;
+}
+.item-menu{
+    flex: 1;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2{
+    text-align: center;
+    flex: 1;
+    background-color: red;
+}
+h3{
+    text-align: center;
+    flex: 1;
+    background-color: red;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.coluna{
+    flex: 1;
+    margin: 20px;
+}
+img{
+    flex: 1;
+    max-width: 100%;
+}
+footer{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 150px;
+}
+.base{
+    flex: 1;
+    margin-right: 10px;
+    max-width: 150px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 100%;
+}
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+
+}
+.base2{
+    flex: 1;
+    max-width: 100%;
+    background-color: rgb(255, 121, 121);
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
